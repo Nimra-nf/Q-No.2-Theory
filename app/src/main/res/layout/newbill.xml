@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".Addnew">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Bill"
+        android:gravity="center"
+        android:textSize="50sp"/>
+
+    <GridLayout
+        android:id="@+id/GridLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+        <TextView
+            android:id="@+id/lblname"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="30sp" />
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:textSize="20sp"/>
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/GridLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+        <TextView
+            android:id="@+id/num"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Number"
+            android:textSize="30sp" />
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </GridLayout>
+    <GridLayout
+        android:id="@+id/GridLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+        <TextView
+            android:id="@+id/num2"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Meter No"
+            android:textSize="30sp" />
+        <EditText
+            android:id="@+id/mnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </GridLayout>
+    <GridLayout
+        android:id="@+id/GridLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+        <TextView
+            android:id="@+id/am"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:textSize="30sp" />
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </GridLayout>
+    <GridLayout
+        android:id="@+id/GridLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+        <TextView
+            android:id="@+id/lc"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Last Unit"
+            android:textSize="30sp" />
+        <EditText
+            android:id="@+id/lcount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </GridLayout>
+    <GridLayout
+        android:id="@+id/GridLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+        <TextView
+            android:id="@+id/cc"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Current Unit"
+            android:textSize="30sp" />
+        <EditText
+            android:id="@+id/CCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </GridLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/submit"
+        android:text="Save"
+        />
+</LinearLayout>
